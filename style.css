@@ -1,0 +1,13 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#icon {
+  width: 100px;
+  filter: contrast(150%);
+}
