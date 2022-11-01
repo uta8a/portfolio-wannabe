@@ -7,8 +7,10 @@
 </head>
 <body>
   <h1>ストップウォッチ</h1>
-  <div id="count">回数: 0</div>
-  <button onclick="countUp()">クリック！</button>
-  <button onclick="resetCount()">カウントをリセット</button>
+  <div id="elapsed-time">経過時間: 0 (秒)</div>
+  <div id="error"></div>
+  <button onclick="startWatch()">計測開始</button>
+  <button id="pause" onclick="toggleUpdate()">一時停止</button>
+  <button onclick="stopWatch()">計測終了</button>
 </body>
 </html>
