@@ -1,1 +1,1 @@
-# portfolio-wannabe
+# wannabe.portfolio
